@@ -12,7 +12,7 @@ const postSchema = new mongoose.Schema({
     },
     imageUrl: {
         type: String,
-        minlength: 5,
+        minlength: 3,
         maxlength: 1024,
     },
     description: {
@@ -26,7 +26,7 @@ const postSchema = new mongoose.Schema({
         default: Date.now
     },
     author: {
-        type: Schema.Types.ObjectId,
+        type: mongoose.Types.ObjectId,
         ref: 'User'
     },
     tags: [String],
@@ -34,12 +34,14 @@ const postSchema = new mongoose.Schema({
 })
 const Post = mongoose.model('Post', postSchema);
 //validate post
-function validatePost() {
+function validatePost(post) {
     const schema = {
         title: joi.string().min(5).max(50).required(),
         description: joi.string().min(5).max(1042).required(),
-        tags:joi.string()
+        tags:joi.array(),
+        imageUrl:joi.string().min(3).max(1024)
     }
+    return joi.validate(post, schema);
 }
 module.exports.Post = Post;
 module.exports.validate = validatePost;
