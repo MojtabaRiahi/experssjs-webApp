@@ -14,8 +14,6 @@ const postSchema = new mongoose.Schema({
         type: String,
         minlength: 5,
         maxlength: 1024,
-        required: true,
-
     },
     description: {
         type: String,
@@ -36,5 +34,12 @@ const postSchema = new mongoose.Schema({
 })
 const Post = mongoose.model('Post', postSchema);
 //validate post
-
-module.exports=Post;
+function validatePost() {
+    const schema = {
+        title: joi.string().min(5).max(50).required(),
+        description: joi.string().min(5).max(1042).required(),
+        tags:joi.string()
+    }
+}
+module.exports.Post = Post;
+module.exports.validate = validatePost;
