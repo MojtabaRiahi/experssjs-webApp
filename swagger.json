@@ -1,0 +1,295 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "This is a sample server myteamProject server. ",
+        "version": "1.0.0",
+        "title": "Swagger myTeam project",
+        "termsOfService": "",
+        "contact": {
+            "email": ""
+        },
+        "license": {
+            "name": "",
+            "url": ""
+        }
+    },
+    "host": "localhost:3000",
+    "basePath": "/api",
+
+    "tags": [
+        {
+            "name":"login",
+            "description": "login user"
+         },
+        {
+            "name": "user",
+            "description": "Operations about user"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "paths": {
+        "/login": {
+            "post": {
+                "tags": [
+                    "login"
+                ],
+                "summary": "login user",
+                "description": "login user",
+                "operationId": "loginUser",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "login user",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/Login"
+                        }
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "welcome message"
+                    }
+                }
+            }
+        },
+
+
+        "/users/create": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Create user",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "createUser",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "Created user object",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "default": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        },
+        "/users/": {
+            "get": {
+                "tags": [
+                    "user"
+                ],
+                "security":[{
+                    "apiKey": []
+                   
+                 }],
+                "summary": "show all user",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "createUser",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "parameters": [
+                ],
+                "responses": {
+                    "default": {
+                        "description": "successful operation"
+                    }
+                }
+            }
+        },
+    "/users/me": {
+            "post": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "show user profile",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "show my profile",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "security":[{
+                    "apiKey": []
+                   
+                 }],
+                "parameters": [
+
+                ],
+                "responses": {
+                    "default": {
+                        "description": "show user object"
+                    }
+                }
+            }
+        },
+        "/users/update/{id}":{
+            "put": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Updated user",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "updateUser",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "security":[{
+                    "apiKey": []
+                   
+                 }],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "Id that need to be updated",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "in": "body",
+                        "name": "body",
+                        "description": "Updated user object",
+                        "required": true,
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Invalid user supplied"
+                    },
+                    "404": {
+                        "description": "User not found"
+                    }
+                }
+            }
+          
+        },
+        "/users/delete/{id}":{
+            "delete": {
+                "tags": [
+                    "user"
+                ],
+                "summary": "Delete user",
+                "description": "This can only be done by the logged in user.",
+                "operationId": "deleteUser",
+                "produces": [
+                    "application/xml",
+                    "application/json"
+                ],
+                "security":[{
+                    "apiKey": []
+                   
+                 }],
+                "parameters": [
+                    {
+                        "name": "id",
+                        "in": "path",
+                        "description": "The Id that needs to be deleted",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "400": {
+                        "description": "Invalid username supplied"
+                    },
+                    "404": {
+                        "description": "User not found"
+                    }
+                }
+            }
+        }
+      
+    }
+  ,
+    "securityDefinitions": {
+        "apiKey": {
+            "type": "apiKey",
+            "name": "x-auth-token",
+            "in": "header"
+        }
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "required": [
+                "name",
+                "email",
+                "password"
+            ],
+            "properties": {
+
+                "name": {
+                    "type": "string",
+                    "example":"mojtaba"
+                },
+                "email": {
+                    "type": "string",
+                    "example":"mojtabariahi@gmail.com"
+                    
+                },
+                "password": {
+                    "type": "string",
+                    "example":"123456"
+                }
+
+            },
+            "xml": {
+                "name": "User"
+            }
+        },
+        "Login": {
+            "type": "object",
+            "required": [
+                
+                "email",
+                "password"
+            ],
+            "properties": {
+                "email": {
+                    "type": "string",
+                    "example":"mojtabariahi@gmail.com"
+                    
+                },
+                "password": {
+                    "type": "string",
+                    "example":"123456"
+                }
+
+            },
+            
+            "xml": {
+                "name": "User"
+            }
+        }
+
+
+
+        }
+
+}
+
