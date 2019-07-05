@@ -7,7 +7,6 @@ const swaggerUi=require('swagger-ui-express')
 const swaggerDocument=require('./swagger.json')
 const app = express();
 ////
-
 // winston.exceptions.handle(
 //     new winston.transports.Console({ colorize: true, prettyprint: true}),
 //     new winston.transports.File({ filename: 'uncaughtExceptions.log'})
