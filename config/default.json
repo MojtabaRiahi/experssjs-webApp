@@ -1,4 +1,4 @@
 {
-    "jwtPrivateKey":"",
+    "jwtPrivateKey":"secret",
     "db":"mongodb://localhost/myTeamProject"
 }
