@@ -1,8 +1,8 @@
+const winston = require('winston');
 const express = require('express');
 const mongoose = require('mongoose');
 const config = require('config');
 const error = require('./middleware/error')
-const winston = require('winston')
 const swaggerUi=require('swagger-ui-express')
 const swaggerDocument=require('./swagger.json')
 const app = express();
@@ -14,7 +14,7 @@ const app = express();
 // process.on('unhandledRejection', (ex) => {
 //     throw ex
 // })
-//winston.add(winston.transports.File, { filename: 'combined.log' })
+winston.add(winston.transports.File, { filename: 'combined.log' })
 
 const user = require('./routes/users');
 const login = require('./routes/login');
@@ -29,6 +29,7 @@ if (!config.get('jwtPrivateKey')) {
 const db = config.get("db")
 mongoose.connect(db,{useNewUrlParser: true})
     .then(() => winston.info(`Connected to ${db}...`))
+    .catch(err=> console.log('error:',err))
 //////////////middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());

@@ -7,7 +7,7 @@ const checkAuth = require('../middleware/checkAuth')
 const asyncMiddleware = require('../middleware/asyncmiddleware')
 
 const postService = new PostService();
-
+//create post
 router.post('/create', [checkAuth, checkRole], asyncMiddleware(async (req, res) => {
     const { error } = await validate(req.body);
     if (error) { return res.status(400).send(error.details[0].message) };
