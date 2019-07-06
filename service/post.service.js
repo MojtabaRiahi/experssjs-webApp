@@ -1,11 +1,12 @@
-const mongoose = require('mongoose');
+const { Post} = require('../models/post')
+const lodash = require('lodash')
 
 
 class PostService {
 
-    async createpost(post){
-        const post = new Post(lodash.pick(req.body, ['title', 'description', 'tags', 'imageUrl']))
-        post.author = req.user._id;
+    async createpost(newPost,authorId){
+        const post = new Post(lodash.pick(newPost, ['title', 'description', 'tags', 'imageUrl']))
+        post.author = authorId;
         await post.save();
     }
 }
