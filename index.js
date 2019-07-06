@@ -1,4 +1,5 @@
 //require('express-async-errors');
+require('winston-mongodb')
 const winston = require('winston');
 const express = require('express');
 const mongoose = require('mongoose');
@@ -15,11 +16,22 @@ const app = express();
 // process.on('unhandledRejection', (ex) => {
 //     throw ex
 // })
-const transportsObject = new winston.transports.File({
+
+//log error and exception in logFile.log
+const transportsFile = new winston.transports.File({
     filename: 'logFile.log'
 });
-winston.add(transportsObject)
+winston.add(transportsFile)
+//log error in mongo db
+const transportsDb =
+    new (winston.transports.MongoDB)({
+        db: config.get('db'),
+        level: 'error'
+    })
+winston.add(transportsDb)
 
+
+/////route address
 const user = require('./routes/users');
 const login = require('./routes/login');
 const post = require('./routes/post');
