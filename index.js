@@ -13,10 +13,15 @@ const app = express();
 //     new winston.transports.Console({ colorize: true, prettyprint: true}),
 //     new winston.transports.File({ filename: 'uncaughtExceptions.log'})
 // )
+
+process.on('uncaughtException', (ex) => {
+    console.log(ex);
+    winston.error(ex.message, ex);
+})
+
 // process.on('unhandledRejection', (ex) => {
 //     throw ex
 // })
-
 //log error and exception in logFile.log
 const transportsFile = new winston.transports.File({
     filename: 'logFile.log'
@@ -29,7 +34,6 @@ const transportsDb =
         level: 'error'
     })
 winston.add(transportsDb)
-
 
 /////route address
 const user = require('./routes/users');
