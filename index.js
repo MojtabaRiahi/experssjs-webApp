@@ -14,14 +14,16 @@ const app = express();
 //     new winston.transports.File({ filename: 'uncaughtExceptions.log'})
 // )
 
+//un Caught Exception
 process.on('uncaughtException', (ex) => {
     console.log(ex);
     winston.error(ex.message, ex);
 })
-
-// process.on('unhandledRejection', (ex) => {
-//     throw ex
-// })
+//unhandel Promise rejection
+process.on('unhandledRejection', (ex) => {
+    console.log(ex);
+    winston.error(ex.message, ex);
+})
 //log error and exception in logFile.log
 const transportsFile = new winston.transports.File({
     filename: 'logFile.log'

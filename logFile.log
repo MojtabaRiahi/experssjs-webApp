@@ -5,3 +5,24 @@
 {"level":"error","message":"errorerror","stack":"Error: error\n    at Object.<anonymous> (H:\\mvc\\nod.js\\Project\\express\\expressjs-webapp\\index.js:37:7)\n    at Module._compile (internal/modules/cjs/loader.js:701:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:712:10)\n    at Module.load (internal/modules/cjs/loader.js:600:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:539:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:531:3)\n    at Function.Module.runMain (internal/modules/cjs/loader.js:754:12)\n    at startup (internal/bootstrap/node.js:283:19)\n    at bootstrapNodeJSCore (internal/bootstrap/node.js:622:3)"}
 {"message":"app is listennig on port 3000 . . .","level":"info"}
 {"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
