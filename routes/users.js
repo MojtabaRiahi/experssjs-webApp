@@ -2,34 +2,23 @@ const express = require('express')
 const mongoose = require('mongoose')
 const router = express.Router()
 const { User, validate } = require('../models/user')
-const lodash = require('lodash')
-const bcrypt = require('bcrypt')
 const checkRole = require('../middleware/checkRole')
 const checkAuth = require('../middleware/checkAuth')
 const asyncMiddleware = require('../middleware/asyncmiddleware')
+const userService = new userService();
 // create new user
-
 router.post('/create', asyncMiddleware(async (req, res) => {
     // validate input
     const { error } = validate(req.body)
     if (error) return res.status(400).send(error.details[0].message)
-    // check username or email
-    let user = await User.findOne({ email: req.body.email });
-    if (user) return res.status(400).send("This username alreay exist");
-    //create user
-    else {
+    // check username or email and save in db
+    const result = await userService.createUser(req.body);
+    if (!result.ok) return res.status(400).send(`bad-request : ${result}`)
+    return res.status(200).send(`new user created: ${result}`);
 
-        user = new User(lodash.pick(req.body, ["name", "email", "password"]));
-        const salt = await bcrypt.genSalt(10);
-        user.password = await bcrypt.hash(user.password, salt);
-        await user.save();
-        // logged new user
-        const token = user.generateAuthToken();
-        res.header('x-auth-token', token).send(lodash.pick(user, ["name", "email"]));
-    }
 }));
-//update user by id
 
+//update user by id
 router.put('/update/:id', [checkAuth, checkRole], asyncMiddleware(async (req, res) => {
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
