@@ -27,8 +27,6 @@ class UserService {
         const checkUser = await this.findUserById(userId);
         if (checkUser) return await User.remove(checkUser)
         return new Error('can not find user !')
-
-
     }
     async getAll(){
         return await User.find().select('-password')

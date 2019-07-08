@@ -17,7 +17,6 @@ router.post('/create', asyncMiddleware(async (req, res) => {
     return res.status(200).send(`new user created: ${result}`);
 
 }));
-
 //update user by id
 router.put('/update/:id', [checkAuth, checkRole], asyncMiddleware(async (req, res) => {
     const { error } = validate(req.body);
