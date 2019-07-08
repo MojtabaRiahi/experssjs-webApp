@@ -23,21 +23,11 @@ router.put('/update/:id', [checkAuth, checkRole], asyncMiddleware(async (req, re
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
     //find user
-    const getUser = await User.findById(req.params.id);
-    //check user
-    if (!getUser) {
-        return res.status(400).send('error : dose not exist user with this id')
+    const result = await userService.updateUser(req.body,req.params.id)
+    if (!result.ok) {
+        return res.status(400).send(result)
     }
-    //set property and save
-    getUser.name = req.body.name;
-    getUser.email = req.body.email;
-    getUser.password = req.body.password;
-    getUser.save();
-    console.log(getUser);
-    res.send(`user updated : ${getUser}`)
-
-    //second way for  update
-    // getUser.update({_id:req.params.id},{$set:{name:req.body.name,email:req.body.email,password:req.body.password}})
+    res.status(200).send(`user updated : ${result}`);
 }))
 //delete user by id
 
