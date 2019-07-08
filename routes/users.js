@@ -23,7 +23,7 @@ router.put('/update/:id', [checkAuth, checkRole], asyncMiddleware(async (req, re
     const { error } = validate(req.body);
     if (error) return res.status(400).send(error.details[0].message);
     //find user
-    const result = await userService.updateUser(req.body,req.params.id)
+    const result = await userService.updateUser(req.body, req.params.id)
     if (!result.ok) {
         return res.status(400).send(result)
     }
@@ -32,17 +32,9 @@ router.put('/update/:id', [checkAuth, checkRole], asyncMiddleware(async (req, re
 //delete user by id
 
 router.delete('/delete/:id', [checkAuth, checkRole], asyncMiddleware(async (req, res) => {
-    //find user
-    const user = await User.findById(req.params.id);
-    //check user
-    if (!user) {
-        return res.status(400).send('error : dose not exist user with this id')
-    }
-    console.log(req.user.id)
-    //if exist => delete user
-    user.delete({ _id: req.params.id })
-    console.log(req.params.id)
-    res.send(`delete user  :${user.name}`)
+    const result = userService.deleteUser(req.prams.id);
+    if (!result.ok) return res.status(400).send(`bad-request : ${result}`)
+    res.status(200).send(`delete user  :${user.name}`)
 }))
 
 //get my profile 
@@ -53,8 +45,7 @@ router.post('/me', checkAuth, asyncMiddleware(async (req, res) => {
 
 //show all user
 router.get('/', [checkAuth, checkRole], asyncMiddleware(async (req, res) => {
-
-    const getAllUser = await User.find().select('-password');
-    res.status(200).send(getAllUser);
+    const result = await userService.getAll();
+    res.status(200).send(result);
 }))
 module.exports = router;
