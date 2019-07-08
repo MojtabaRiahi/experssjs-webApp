@@ -12,17 +12,26 @@ class UserService {
         return new Error('this username already exist !')
     }
     async updateUser(user, userId) {
-        const checkUser =await this.findUserById(userId);
+        const checkUser = await this.findUserById(userId);
         if (checkUser) {
             const { name, email, password } = user
             //set property and save
-            checkUser.set({ name, email, password });
-            await checkUser.save();
+            await checkUser.set({ name, email, password }).save();
             return delete checkUser['password'];
             //second way for  update
             // getUser.update({_id:req.params.id},{$set:{name:req.body.name,email:req.body.email,password:req.body.password}})
         }
         return new Error('can not find user !')
+    }
+    async DeleteUser(userId) {
+        const checkUser = await this.findUserById(userId);
+        if (checkUser) return await User.remove(checkUser)
+        return new Error('can not find user !')
+
+
+    }
+    async getAll(){
+        return await User.find().select('-password')
     }
     async addUserInDb(userData) {
         let user = new User(lodash.pick(userData, ["name", "email", "password"]));
