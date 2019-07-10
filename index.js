@@ -43,7 +43,7 @@ winston.add(transportsDb)
 
 /////route address
 const user = require('./routes/users');
-const login = require('./routes/login');
+const auth = require('./routes/auth');
 const post = require('./routes/post');
 
 /////////////check jwt privateKey in config
@@ -60,7 +60,7 @@ mongoose.connect(db, { useNewUrlParser: true })
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use('/api/users', user);
-app.use('/api/login', login);
+app.use('/api/auth', auth);
 app.use('/api/post', post);
 app.use('/api/api-doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
 //error handler
