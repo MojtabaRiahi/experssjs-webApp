@@ -42,3 +42,525 @@
 {"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
 {"message":"app is listennig on port 3000 . . .","level":"info"}
 {"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"findUserByEmail is not definedfindUserByEmail is not defined","stack":"ReferenceError: findUserByEmail is not defined\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:8:9)\n    at router.post.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:16:38)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\asyncmiddleware.js:4:19\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:335:12)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"addUserInDb is not definedaddUserInDb is not defined","stack":"ReferenceError: addUserInDb is not defined\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:9:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"user.select is not a functionuser.select is not a function","stack":"TypeError: user.select is not a function\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:11:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"level":"error","message":"user.select is not a functionuser.select is not a function","stack":"TypeError: user.select is not a function\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:11:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"user.select is not a functionuser.select is not a function","stack":"TypeError: user.select is not a function\n    at UserService.addUserInDb (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:39:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"user.select is not a functionuser.select is not a function","stack":"TypeError: user.select is not a function\n    at UserService.addUserInDb (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:39:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"user.select is not a functionuser.select is not a function","stack":"TypeError: user.select is not a function\n    at UserService.addUserInDb (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:39:26)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"userInfo is not defineduserInfo is not defined","stack":"ReferenceError: userInfo is not defined\n    at UserService.addUserInDb (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:41:21)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"this username already exist !this username already exist !","stack":"Error: this username already exist !\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:12:15)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"errmsg":"E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }","level":"error","message":"E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }","stack":"MongoError: E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }\n    at Function.create (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb-core\\lib\\error.js:43:12)\n    at toError (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb\\lib\\utils.js:149:22)\n    at coll.s.topology.insert (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb\\lib\\operations\\collection_ops.js:859:39)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb-core\\lib\\connection\\pool.js:397:18\n    at process._tickCallback (internal/process/next_tick.js:61:11)"}
+{"driver":true,"name":"MongoError","index":0,"code":11000,"errmsg":"E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }","level":"error","message":"E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }","stack":"MongoError: E11000 duplicate key error collection: myTeamProject.users index: email_1 dup key: { : \"kamallll123@gmail.com\" }\n    at Function.create (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb-core\\lib\\error.js:43:12)\n    at toError (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb\\lib\\utils.js:149:22)\n    at coll.s.topology.insert (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb\\lib\\operations\\collection_ops.js:859:39)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\mongodb-core\\lib\\connection\\pool.js:397:18\n    at process._tickCallback (internal/process/next_tick.js:61:11)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"user.toObject is not a functionuser.toObject is not a function","stack":"TypeError: user.toObject is not a function\n    at UserService.deletePassword (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:56:28)\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:11:31)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"user.toObject is not a functionuser.toObject is not a function","stack":"TypeError: user.toObject is not a function\n    at UserService.deletePassword (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:57:28)\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:11:31)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot read property 'email' of undefinedCannot read property 'email' of undefined","stack":"TypeError: Cannot read property 'email' of undefined\n    at router.post.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:18:17)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"res.toObject is not a functionres.toObject is not a function","stack":"TypeError: res.toObject is not a function\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:13:24)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"password is not definedpassword is not defined","stack":"ReferenceError: password is not defined\n    at UserService.createUser (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\service\\user.service.js:11:42)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot read property 'email' of undefinedCannot read property 'email' of undefined","stack":"TypeError: Cannot read property 'email' of undefined\n    at router.post.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:18:17)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot set headers after they are sent to the clientCannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:470:11)\n    at ServerResponse.header (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:775:10)\n    at ServerResponse.send (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:174:12)\n    at auth (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\checkAuth.js:11:25)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot set headers after they are sent to the clientCannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:470:11)\n    at ServerResponse.header (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:775:10)\n    at ServerResponse.send (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:174:12)\n    at auth (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\checkAuth.js:11:25)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot read property 'id' of undefinedCannot read property 'id' of undefined","stack":"TypeError: Cannot read property 'id' of undefined\n    at router.delete.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:37:53)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\asyncmiddleware.js:4:19\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"level":"error","message":"Cannot read property 'id' of undefinedCannot read property 'id' of undefined","stack":"TypeError: Cannot read property 'id' of undefined\n    at router.delete.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:37:53)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\asyncmiddleware.js:4:19\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"userService.deleteUser is not a functionuserService.deleteUser is not a function","stack":"TypeError: userService.deleteUser is not a function\n    at router.delete.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:37:32)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\asyncmiddleware.js:4:19\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"userService.deleteUser is not a functionuserService.deleteUser is not a function","stack":"TypeError: userService.deleteUser is not a function\n    at router.delete.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:37:32)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\asyncmiddleware.js:4:19\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"userService.deleteUser is not a functionuserService.deleteUser is not a function","stack":"TypeError: userService.deleteUser is not a function\n    at router.delete.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:37:38)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\asyncmiddleware.js:4:19\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:354:14)\n    at param (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:365:14)\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:410:3)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"user is not defineduser is not defined","stack":"ReferenceError: user is not defined\n    at router.delete.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:39:43)\n    at process._tickCallback (internal/process/next_tick.js:68:7)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot read property '_id' of undefinedCannot read property '_id' of undefined","stack":"TypeError: Cannot read property '_id' of undefined\n    at router.post.asyncMiddleware (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\routes\\users.js:45:50)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\asyncmiddleware.js:4:19\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot set headers after they are sent to the clientCannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:470:11)\n    at ServerResponse.header (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:775:10)\n    at ServerResponse.send (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:174:12)\n    at auth (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\checkAuth.js:11:25)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"level":"error","message":"Cannot set headers after they are sent to the clientCannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:470:11)\n    at ServerResponse.header (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:775:10)\n    at ServerResponse.send (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:174:12)\n    at auth (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\checkAuth.js:11:25)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"level":"error","message":"Cannot set headers after they are sent to the clientCannot set headers after they are sent to the client","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (_http_outgoing.js:470:11)\n    at ServerResponse.header (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:775:10)\n    at ServerResponse.send (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\response.js:174:12)\n    at auth (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\middleware\\checkAuth.js:11:25)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:317:13)\n    at H:\\mvc\\nod.js\\Project\\express\\expressjs-webApp\\node_modules\\express\\lib\\router\\index.js:284:7"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
+{"message":"app is listennig on port 3000 . . .","level":"info"}
+{"message":"Connected to mongodb://localhost/myTeamProject...","level":"info"}
