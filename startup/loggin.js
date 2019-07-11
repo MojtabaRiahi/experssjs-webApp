@@ -2,11 +2,10 @@
 require('winston-mongodb')
 const winston = require('winston');
 module.exports = function () {
-    // winston.exceptions.handle(
-    //     new winston.transports.Console({ colorize: true, prettyprint: true}),
-    //     new winston.transports.File({ filename: 'uncaughtExceptions.log'})
-    // )
-
+    winston.exceptions.handle(
+        new winston.transports.Console({ colorize: true, prettyprint: true}),
+       // new winston.transports.File({ filename: 'uncaughtExceptions.log'})
+    )
     //un Caught Exception
     process.on('uncaughtException', (ex) => {
         console.log(ex);
