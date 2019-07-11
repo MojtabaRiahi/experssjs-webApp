@@ -2,12 +2,12 @@
 require('winston-mongodb')
 const winston = require('winston');
 const express = require('express');
-const mongoose = require('mongoose');
 const config = require('config');
 
 const app = express();
 
 require('./startup/routes')(app)
+require('./startup/db')();
 
 // winston.exceptions.handle(
 //     new winston.transports.Console({ colorize: true, prettyprint: true}),
@@ -40,21 +40,11 @@ const transportsDb =
         level: 'error'
     })
 winston.add(transportsDb)
-
-/////route address
-
-
 /////////////check jwt privateKey in config
 if (!config.get('jwtPrivateKey')) {
     console.log('fatal error: jwtPrivatekey not define !');
     process.exit(1)
 }
-//connect to dataBase with mongoose
-const db = config.get("db")
-mongoose.connect(db, { useNewUrlParser: true })
-    .then(() => winston.info(`Connected to ${db}...`))
-    .catch(err => console.log('error:', err))
-//////////////middleware
 
 // connecting app settings
 const port = process.env.port || 3000;
