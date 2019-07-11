@@ -4,10 +4,10 @@ const winston = require('winston');
 const express = require('express');
 const mongoose = require('mongoose');
 const config = require('config');
-const error = require('./middleware/error')
-const swaggerUi = require('swagger-ui-express')
-const swaggerDocument = require('./swagger.json')
+
 const app = express();
+
+require('./startup/routes')(app)
 
 // winston.exceptions.handle(
 //     new winston.transports.Console({ colorize: true, prettyprint: true}),
@@ -42,9 +42,7 @@ const transportsDb =
 winston.add(transportsDb)
 
 /////route address
-const user = require('./routes/users');
-const auth = require('./routes/auth');
-const post = require('./routes/post');
+
 
 /////////////check jwt privateKey in config
 if (!config.get('jwtPrivateKey')) {
@@ -57,14 +55,7 @@ mongoose.connect(db, { useNewUrlParser: true })
     .then(() => winston.info(`Connected to ${db}...`))
     .catch(err => console.log('error:', err))
 //////////////middleware
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
-app.use('/api/users', user);
-app.use('/api/auth', auth);
-app.use('/api/post', post);
-app.use('/api/api-doc', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
-//error handler
-app.use(error);
+
 // connecting app settings
 const port = process.env.port || 3000;
 app.listen(port, () => winston.info(`app is listennig on port ${port} . . .`));
