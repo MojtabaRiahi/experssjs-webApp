@@ -6,12 +6,9 @@ class AuthService {
         userService = new UserSerVice();
     }
     async register(userData) {
-        const result = userService.createUser(userData)
-        if (!result.ok) return result;
-
+        const result = await userService.createUser(userData)
+        if (!result.email) return result;
         await this.userLogin(result)
-
-
     }
     async userLogin(userData) {
         //if req is validate => find user
