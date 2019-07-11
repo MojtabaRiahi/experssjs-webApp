@@ -1,9 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const joi = require('joi');
-const bcrypt = require('bcrypt');
-const lodash = require('lodash');
-const { User, validate } = require('../models/user')
+const { validate } = require('../models/user')
 const asyncMiddleware = require('../middleware/asyncmiddleware')
 const authService = require('../service/auth.service')
 
