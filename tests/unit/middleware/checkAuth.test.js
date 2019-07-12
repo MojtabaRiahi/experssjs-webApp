@@ -17,7 +17,7 @@ describe('checkAuth middleware', () => {
                 header: jest.fn().mockReturnValue(a)
             };
             checkAuth(req, res, next);
-            expect(res.status).toHaveBeenCalledWith(401)
+            expect(res.status).toHaveBeenCalledWith(401)           
         })
     })
 
